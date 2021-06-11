@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="vHiB6M" name="SimpleEQ" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" cppLanguageStandard="17"
+              companyWebsite="https://daltonlima.com" companyName="Dalton Lima">
   <MAINGROUP id="DVAgIQ" name="SimpleEQ">
     <GROUP id="{DDA1F05B-B6B3-9C0D-02E3-9859C7B9E920}" name="Source">
       <FILE id="PFDthq" name="PluginProcessor.cpp" compile="1" resource="0"
