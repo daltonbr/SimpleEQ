@@ -29,3 +29,10 @@ Generic interface class towards all different formats plugin that hosts uses
 
 `AudioParameterFloat`: parameters with a range of values, e.g. a slider to adjust a frequency.
 
+## DSP Modules
+
+For this project we add the `dsp` module in Projucer
+
+`juce::dsp::ProcessorChain<typename Processors...>`
+
+`juce::dsp::ProcessContextReplacing<float>`
