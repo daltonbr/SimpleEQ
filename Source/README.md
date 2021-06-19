@@ -36,3 +36,12 @@ For this project we add the `dsp` module in Projucer
 `juce::dsp::ProcessorChain<typename Processors...>`
 
 `juce::dsp::ProcessContextReplacing<float>`
+
+## Low Cut - High Cut
+
+Giving the nature of the algorithm in `designIIRHighpassHighOrderButterworthMethod` 
+
+Slope choice 0: 12 db/oct -> order: 2
+Slope choice 1: 24 db/oct -> order: 4
+Slope choice 2: 36 db/oct -> order: 6
+Slope choice 3: 48 db/oct -> order: 8
